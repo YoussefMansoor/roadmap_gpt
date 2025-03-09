@@ -1,0 +1,36 @@
+{
+  "name": "rm-gpt",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "seed": "ts-node ./scripts/loadDb.ts",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^1.1.9",
+    "@ai-sdk/provider": "^1.0.7",
+    "@datastax/astra-db-ts": "^1.1.0",
+    "@google/generative-ai": "^0.21.0",
+    "ai": "^4.1.16",
+    "cohere-ai": "^7.15.4",
+    "dotenv": "^16.4.7",
+    "langchain": "^0.1.36",
+    "next": "15.1.6",
+    "openai": "^4.82.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.6",
+    "typescript": "^5"
+  }
+}
